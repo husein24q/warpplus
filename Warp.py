@@ -63,17 +63,13 @@ while True:
 		os.system('cls' if os.name == 'nt' else 'clear')
 		print("")
 		print("                  WARP-PLUS-CLOUDFLARE (script)" + "URSECRET")
-		print("")
-		animation = ["[■□□□□□□□□□] 10%","[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%", "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"] 
-		for i in range(len(animation)):
-			time.sleep(0.5)
 			sys.stdout.write("\r[+] Preparing... " + animation[i % len(animation)])
 			sys.stdout.flush()
 		print(f"\n[-] WORK ON ID: {referrer}")    
 		print(f"[:)] {g} GB TELAH BERJAYA DIMASUKKAN KEDALAM ACCOUNT ANDA.")
 		print(f"[#] Total: {g} Good {b} Bad")
-		print("[*] SELEPAS 1 SAAT REQUEST BARU AKAN DIHANTAR.")
-		time.sleep(1)
+		print("[*] SELEPAS 18 SAAT REQUEST BARU AKAN DIHANTAR.")
+		time.sleep(18)
 	else:
 		b = b + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
