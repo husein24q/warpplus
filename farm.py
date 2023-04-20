@@ -1,4 +1,3 @@
-
 import urllib.request
 import json
 import datetime
@@ -61,10 +60,6 @@ while True:
 	if result == 200:
 		g = g + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
-		print("")
-		print("                  WARP-PLUS-CLOUDFLARE (script)" + "URSECRET")
-			sys.stdout.write("\r[+] Preparing... " + animation[i % len(animation)])
-			sys.stdout.flush()
 		print(f"\n[-] WORK ON ID: {referrer}")    
 		print(f"[:)] {g} GB TELAH BERJAYA DIMASUKKAN KEDALAM ACCOUNT ANDA.")
 		print(f"[#] Total: {g} Good {b} Bad")
